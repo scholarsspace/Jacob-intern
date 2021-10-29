@@ -1,16 +1,16 @@
 import React from 'react'
-
+import './App.css'
 import { Switch,Route } from 'react-router-dom'
 import About from "./Component1/About/about"
 import Home from "./Component1/Home"
 import Blog from "./Component1/Blog/Blog"
 import Contact from "./Component1/Contact/contact"
-import Header from "./Component1/Header/Header"
+import Header from "./Component1/Header/Header1"
 import Footer from "./Component1/Footer/Footer"
 
 let App = ()=>{ 
   return (
-    <div>
+    <div className="App">
       <Header />
       <Switch>
         
